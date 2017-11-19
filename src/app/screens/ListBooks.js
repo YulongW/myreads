@@ -17,6 +17,8 @@ class ListBooks extends Component {
     return books.filter((book) => type === book.shelf)
   }
 
+  // this has to be written as an arrow function and cannot be written as updateShelf(book, shelf) {}
+  // otherwise "this" will not bind correctly, and this.state will not be accessible in the child component
   updateShelf = (book, shelf) => {
     BooksAPI.update(book, shelf).then((res) => {
       book.shelf = shelf;
