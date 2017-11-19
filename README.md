@@ -13,7 +13,7 @@ This project connects the backend server with the provided file [`BooksAPI.js`](
 
 ## Material Components for the web
 
-This project tries the [Material Components for the web](https://github.com/material-components/material-components-web) and it is awesomoe!
+This project tries the [Material Components for the web](https://github.com/material-components/material-components-web) and it is awesome!
 
 ## Create React App
 
